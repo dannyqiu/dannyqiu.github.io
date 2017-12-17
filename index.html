@@ -50,16 +50,18 @@
                 width: 100%;
                 height: 100%;
             }
-
+            html, body {
+                height: 100%;
+            }
         </style>
     </head>
     <body>
         <div id="background"></div>
         <h1>hello.</h1>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="/js/confetti.min.js"></script>
-        <script src="/js/confetti-mouse.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/confetti.min.js"></script>
+        <script src="js/confetti-mouse.min.js"></script>
         <script>
             $(function(){
                 $('html').click(function(e){
