@@ -63,13 +63,10 @@
         <script src="js/confetti.min.js"></script>
         <script src="js/confetti-mouse.min.js"></script>
         <script>
-            $(function(){
-                $('html').click(function(e){
-                    $('[class*=confetti]').remove();
-                    $('html').confetti({
-                        x: e.pageX,
-                        y: e.pageY,
-                    });
+            $('html').click(function(e) {
+                $('html').confetti({
+                    x: e.pageX,
+                    y: e.pageY,
                 });
             });
         </script>
